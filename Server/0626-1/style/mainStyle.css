@@ -1,0 +1,81 @@
+
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color:#333;
+}
+.nav {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background: #b2dfdb;
+}
+
+.webPageName {
+    /* margin: 100px 10px 10px 20px; */
+    align-self: center;
+    margin-top:80px;
+    font-size: 30px;
+    /*font-family: 'Black Han Sans', sans-serif;*/
+}
+
+#name{
+    align-self: center;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.navigationRightItems {
+    display: flex;
+    margin-left: auto;
+    margin-right: 20px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.navigationItem {
+    margin: 10px 10px 10px 20px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.title {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.subTitle {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+button {
+    border : none;
+    font-size: 1.25rem;
+    background-color: transparent;
+    cursor: pointer;
+}
+.btnLogin{
+    color: indianred;
+}
+
+
+
+
+article {padding: 52px 3% 0;}
+article .block {padding: 20px; min-height: 500px;}
+article .block p {line-height: 22px; color: #fff; font-size: 16px; font-weight: 600;}
+article .block:nth-child(2n+1) {background: #999;}
+article .block:nth-child(2n) {background: #222;}

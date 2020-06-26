@@ -1,0 +1,54 @@
+.nav {
+    height: 200px;
+    display: flex;
+    align-items: flex-start;
+    background: #e0f2f1;
+}
+
+.webPageName {
+    /* margin: 100px 10px 10px 20px; */
+    align-self: center;
+}
+
+.navigationRightItems {
+    display: flex;
+    margin-left: auto;
+    margin-right: 20px;
+    font-size: 20px;
+    margin-top: 130px
+}
+
+.navigationItem {
+    margin: 10px 10px 10px 20px;
+}
+
+button {
+    border : none;
+    font-size: 1.25rem;
+    background-color: transparent;
+    cursor: pointer;
+}
+.btnLogin{
+    color: indianred;
+}
+
+#title{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    width: 665px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#done {
+    border: white solid 1px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #82ada9;
+    color: white;
+}
+

@@ -1,0 +1,92 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+table.input-table{
+    border-collapse: separate;
+    text-align: center;
+    line-height: 1.5;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    /*margin: 20px 10px;*/
+    border-radius: 5px;
+}
+
+table.input-table th{
+    font-size: 10px;
+    width: 80px;
+    padding: 5px;
+    vertical-align: center;
+    color: #ffc046;
+    background: rgba(238, 238, 238, 0.5);
+}
+
+table.input-table td{
+    font-size: 10px;
+    width: 80px;
+    padding: 5px;
+    vertical-align: center;
+    border-bottom: 1px solid #ccc;
+    background: rgba(238, 238, 238, 0.5);
+}
+
+table.input-table textarea{
+    width: 480px;
+    height: 80px;
+}
+
+
+table.show-table{
+    border-collapse: separate;
+    text-align: center;
+    line-height: 1.5;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    /*margin: 20px 10px;*/
+    border-radius: 5px;
+    width: 450px;
+    border: #333333 solid 0.5px;
+}
+
+table.show-table th{
+    font-size: 10px;
+    width: 80px;
+    padding: 5px;
+    vertical-align: center;
+    color: #b2dfdb;
+
+}
+
+table.show-table td{
+    font-size: 10px;
+    width: 80px;
+    padding: 5px;
+    color: #333333;
+    vertical-align: center;
+    border-bottom: 1px solid #ccc;
+
+}
+
+#show-content-table{
+    background-color: white;
+    height: 60px;
+    text-align: left;
+}
+
+#btn-delete{
+
+}
+
+/*비밀번호 확인*/
+table.check-password{
+    font-size: 12px;
+    margin-top: 35px;
+    width:300px;
+    height: 80px;
+    border-radius: 5px;
+    border: #82ada9 solid 0.5px;
+}
+table.check-password td{
+    text-align: center;
+}
