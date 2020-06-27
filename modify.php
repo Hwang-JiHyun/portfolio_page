@@ -15,7 +15,7 @@ $board = $sql->fetch_array();
 <head>
     <meta charset="UTF-8">
     <title>게시판 수정</title>
-    <link href="../style/writingStyle.css" rel="stylesheet" type="text/css"/>
+    <link href="writingStyle.css" rel="stylesheet" type="text/css"/>
 
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>

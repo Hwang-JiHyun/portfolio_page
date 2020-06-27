@@ -12,7 +12,7 @@ if (isset($_COOKIE['id'])) {
 <head>
     <meta charset="UTF-8">
     <title>로그인 페이지</title>
-    <link href="../style/loginStyle.css" rel="stylesheet" type="text/css"/>
+    <link href="loginStyle.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 

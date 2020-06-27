@@ -21,12 +21,12 @@ if (isset($_SESSION['id'])) {
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>JIHYUN's portfolio</title>
-    <link href="../style/mainStyle.css" rel="stylesheet" type="text/css"/>
+    <link href="mainStyle.css" rel="stylesheet" type="text/css"/>
 </head>
 
 <body>
 <div class="nav">
-    <div class="webPageName" onclick="location.href='/main/page_main.php'">
+    <div class="webPageName" onclick="location.href='page_main.php'">
         JIHYUN's Portfolio
     </div>
 
@@ -37,13 +37,13 @@ if (isset($_SESSION['id'])) {
                 <button><?= $logout ?></button>
             </a>
         </div>
-        <Button class="navigationItem" onclick="location.href='/about/page_about.php'" type="button">
+        <Button class="navigationItem" onclick="location.href='page_about.php'" type="button">
             about
         </Button>
-        <Button class="navigationItem" onclick="location.href='/bulletin_board/page_bulletin_board.php'" type="button">
+        <Button class="navigationItem" onclick="location.href='page_bulletin_board.php'" type="button">
             board
         </Button>
-        <Button class="navigationItem" onclick="location.href='/guest_book/page_guest_book.php'" type="button">
+        <Button class="navigationItem" onclick="location.href='page_guest_book.php'" type="button">
             Visitor's
         </Button>
         <Button class="navigationItem" type="button">준비중</Button>

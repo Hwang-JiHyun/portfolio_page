@@ -21,7 +21,7 @@ if (isset($_SESSION['id'])) {
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>JIHYUN's portfolio</title>
-    <link href="../style/mainStyle.css" rel="stylesheet" type="text/css"/>
+    <link href="mainStyle.css" rel="stylesheet" type="text/css"/>
     <?php include_once '../setting/header.php';?>
 </head>
 
